@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "ES6",
+    "lib": ["DOM"],
+    "importHelpers": true,
+    "downlevelIteration": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true
+  }
+}

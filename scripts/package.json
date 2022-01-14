@@ -1,0 +1,18 @@
+{
+  "name": "fxhash-rollup-template",
+  "version": "1.0.0",
+  "dependencies": {
+    "rollup": "^2.61.1",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "rollup-plugin-terser": "^7.0.2",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "typescript": "^4.5.3"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  }
+}
